@@ -1,0 +1,123 @@
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+} 
+
+header {
+  background-color: gray;
+  display: block;
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+
+}
+
+main {
+  float: left;
+  position: relative;
+  
+}
+
+section {
+  float: left;
+  position: absolute;
+}
+
+aside {
+  float: right;
+  position: absolute;
+  right: 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 30%;
+}
+
+
+/* 
+
+header,nav,section {
+    background: #ebebeb;
+    text-align: center;
+    padding: 40px;
+    margin:10px;
+    color: chartreuse;
+}
+
+body {
+  width: 960px;
+  font-size: 18px;
+  font-family: 'Arial', 'Helvetica Neue', "Helvetica", "sans-serif";
+  background: rgb(128, 128, 128);
+}
+
+Section {
+  background: red;
+  width:495px;
+  height: 288px;
+  padding: 20px;
+  display:block;
+  float:left;
+  position: absolute;
+}
+
+Aside {
+  text-align:center;
+  width: 345px;
+  height: 288px;
+  padding: 20px;
+  margin: 10px;
+  background: black;
+  position: absolute; 
+  left: 0px;
+
+}
+
+.apple {
+  float: left;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+Article {
+  text-align:center;
+  clear: both;
+  overflow:auto;
+  width: 50%;
+  height: 36%;
+  background: green;
+  padding: 60px;
+  position:absolute;
+  right: 75px;
+  top: 75px;
+  bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+  background: purple;
+  position: absolute;
+  left: 40%;
+
+}
+
+p { 
+  text-align: center;
+  background-color: orange;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  
+}
+
+
+*/
